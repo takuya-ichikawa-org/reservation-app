@@ -3,7 +3,29 @@
 {
 	"name": "Node.js & TypeScript",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm"
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"customizations": {
+		"vscode": {
+		"extensions": [
+			"ms-azuretools.vscode-docker",
+			"GitHub.copilot",
+			"GitHub.copilot-chat",
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode",
+			"eamodio.gitlens",
+			"Gruntfuggly.todo-tree"
+		],
+		"settings": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.formatOnSave": true,
+			"editor.codeActionsOnSave": {
+			"source.organizeImports": "always",
+			"source.addMissingImports.ts": "always"
+			},
+			"editor.tabSize": 2
+		}
+		}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
