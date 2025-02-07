@@ -17,15 +17,14 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">ようこそ！</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">ステップ1: 試してみる</ThemedText>
         <ThemedText>
-          Edit
           <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText>
-          to see changes. Press
+          を編集して変更を確認してください。開発者ツールを開くには
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: "cmd + d",
@@ -33,26 +32,26 @@ export default function HomeScreen() {
               web: "F12",
             })}
           </ThemedText>
-          to open developer tools.
+          を押してください。
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">ステップ2: 探索する</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this
-          starter app.
+          このスターターアプリに含まれている内容を学ぶために、Exploreタブをタップしてください。
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">ステップ3: 新しいスタートを切る</ThemedText>
         <ThemedText>
-          When you're ready, run
+          準備ができたら、
           <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText>
-          to get a fresh
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This
-          will move the current
-          <ThemedText type="defaultSemiBold">app</ThemedText> to
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          を実行して新しい
+          <ThemedText type="defaultSemiBold">app</ThemedText>
+          ディレクトリを取得してください。現在の
+          <ThemedText type="defaultSemiBold">app</ThemedText>は
+          <ThemedText type="defaultSemiBold">app-example</ThemedText>
+          に移動されます。
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
