@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "example-app",
-    "slug": "example-app",
+    "name": "reservation-app",
+    "slug": "reservation-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
