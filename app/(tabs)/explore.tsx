@@ -29,14 +29,12 @@ export default function TabTwoScreen() {
       <Collapsible title="File-based routing">
         <ThemedText>
           This app has two screens:
-          <ThemedText type="defaultSemiBold">
-            app/(tabs)/index.tsx
-          </ThemedText>{" "}
+          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText>
           and
           <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
         </ThemedText>
         <ThemedText>
-          The layout file in{" "}
+          The layout file in
           <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>
           sets up the tab navigator.
         </ThemedText>
@@ -54,7 +52,7 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="Images">
         <ThemedText>
-          For static images, you can use the{" "}
+          For static images, you can use the
           <ThemedText type="defaultSemiBold">@2x</ThemedText> and
           <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to
           provide files for different screen densities
@@ -69,7 +67,7 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="Custom fonts">
         <ThemedText>
-          Open <ThemedText type="defaultSemiBold">app/_layout.tsx</ThemedText>{" "}
+          Open <ThemedText type="defaultSemiBold">app/_layout.tsx</ThemedText>
           to see how to load
           <ThemedText style={{ fontFamily: "SpaceMono" }}>
             custom fonts such as this one.
@@ -95,8 +93,8 @@ export default function TabTwoScreen() {
           This template includes an example of an animated component. The
           <ThemedText type="defaultSemiBold">
             components/HelloWave.tsx
-          </ThemedText>{" "}
-          component uses the powerful{" "}
+          </ThemedText>
+          component uses the powerful
           <ThemedText type="defaultSemiBold">
             react-native-reanimated
           </ThemedText>
@@ -105,7 +103,7 @@ export default function TabTwoScreen() {
         {Platform.select({
           ios: (
             <ThemedText>
-              The{" "}
+              The
               <ThemedText type="defaultSemiBold">
                 components/ParallaxScrollView.tsx
               </ThemedText>
